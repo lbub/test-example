@@ -1,0 +1,13 @@
+spring:
+  profiles: release-backend
+tests:
+  git:
+    user:
+      subdirectoryUrl: "/users/{user}"
+      queryParams:
+        user: "lbub"
+    authorizations:
+      subdirectoryUrl: "/authorizations"
+      basicAuth:
+        username: ""
+        password: ""

@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include:
+      - release-frontend
+      - release-backend
+gitUrl: "https://api.github.com/"
